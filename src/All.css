@@ -1,0 +1,63 @@
+*{
+    background-color: gainsboro;
+}
+button{
+    cursor: pointer;
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+.signUpForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+.AddDocument{
+    text-align: center;
+}
+header p{
+    text-align: center;
+    float: left;
+}
+header{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      background: brown;
+    height: 64px;}
+
+.addDocument{  
+    position: relative;
+    top: 12px;
+    text-align: center;
+}
+.addDocument a{
+    text-decoration: none;
+}
+.AdddocumentForm{
+    position: relative;
+    top: 223px;
+}
+.AdddocumentFormInput{
+position: relative;
+    top: -70px;
+}
+.AdddocumentFormLabel{position: relative;
+    top: -68px}
+
+.table{
+    display: flex;
+    align-items: center;
+    margin-top: 41px;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+ 
+}
