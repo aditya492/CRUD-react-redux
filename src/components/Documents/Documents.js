@@ -10,7 +10,7 @@ import "../../All.css"
 const Documents = () => {
   const [documents, setDocuments] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [documentsPerPage] = useState(10);
+  const [documentsPerPage] = useState(3);
   const dispatch = useDispatch();
   const docs = useSelector((state) => state.document.documents);
   const [isLoading, setLoading] = useState(false);
